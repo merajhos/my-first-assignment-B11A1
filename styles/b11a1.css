@@ -1,0 +1,251 @@
+.fira-sans-thin {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fira-sans-extralight {
+  font-family: "Fira Sans", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.fira-sans-light {
+  font-family: "Fira Sans", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+
+}
+
+.fira-sans-semibold {
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+.fira-sans-extrabold {
+  font-family: "Fira Sans", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.fira-sans-black {
+  font-family: "Fira Sans", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.fira-sans-thin-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.fira-sans-extralight-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fira-sans-light-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fira-sans-regular-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fira-sans-medium-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fira-sans-semibold-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fira-sans-bold-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fira-sans-extrabold-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.fira-sans-black-italic {
+  font-family: "Fira Sans", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 24px 100px;
+}
+.nav title{
+  font-weight: 800px;
+  font-size: 32px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  
+}
+nav ul li {
+  list-style: none;
+  margin-right: 52px;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn-primary{
+  background-color: #ffffff;
+  color:#006A50 ;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 18;
+  border-color: #006A50;
+
+}
+.btn-secondary{
+  background-color: #006A50;
+  color:#ffffff ;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 18;
+  border-color: #006A50;
+
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  background-color: #C6E4D6;
+}
+.banner-content{
+  max-width: 622px;
+
+}
+
+
+.section-title{
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  margin: 100px;
+}
+main{
+  max-width: 1130px;
+  margin: 0 auto;
+}
+main section{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+.skills-container{
+  display: flex;
+  gap: 24px;
+  padding: 10px 10px;
+  
+
+}
+.skills{
+  padding: 30px;
+  border-radius: 5px;
+}
+.skill{
+  color: #0E0E0E;
+  box-shadow: 0 4px 4px 0  black;
+  border-radius: 5px;
+ 
+}
+.skill-description{
+  padding: 24px;
+}
+.btn-fiveth{
+  background-color: #5490F5;
+  color:#ffffff ;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 18;
+  border-color: #006A50;
+}
+.btn-fourth{
+  background-color: #09A15C;
+  color:#ffffff ;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 18;
+  border-color: #006A50;
+}
+.btn-thirth{
+  background-color: #FFC239;
+  color:#ffffff ;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 18;
+  border-color: #006A50;
+}
+
+.skills-container{
+  display: flex;
+  gap: 24px;
+  padding: 10px 10px;
+  
+
+}
+.skill1{
+color: #0E0E0E;
+box-shadow: 0 4px 4px 0  rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+background-color: rgba(84, 144, 245, 0.2);
+}
+.skill2{
+  color: #0E0E0E;
+  box-shadow: 0 4px 4px 0  rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background-color: #C6E4D6;
+  }
+  .skill3{
+    color: #0E0E0E;
+    box-shadow: 0 4px 4px 0  rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background-color: #F7EBCF;
+    }
